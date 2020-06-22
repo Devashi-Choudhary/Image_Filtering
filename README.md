@@ -10,6 +10,7 @@ mean, median and gaussian filters from scratch.
 > `python Image_Filtering.py -i <image_path> -k <int> -m <str gaussian/mean/median> -p <only for median filter> -s <only for gaussian filter>`
 
 where -i is path to image, -k is kernal size, -m is mode, -p is pepper and salt noise(only works in case median filter), -s is sigma for calculating gaussian mask.
+
 for example
 1. for mean filter : `python Image_Filtering.py -i data/image_1.jpg -k 5 -m mean` default value m is mean and k is 3.
 2. for median filtering : `python Image_Filtering.py -i data/image_1.jpg -k 5 -m median -p 0.2` default value p is 0.1 and k is 3.
