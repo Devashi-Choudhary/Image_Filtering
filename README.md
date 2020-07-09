@@ -17,3 +17,7 @@ for example
 3. for median filtering : `python Image_Filtering.py -i data/image_1.jpg -k 5 -m gaussian -s 150` default value s is 100 and k is 3.
 
 **Note :** For more details about implementation, result, and analysis, go through the `Image_Filtering.pdf` file.
+
+# References
+
+This project is done as a part of college assignment.
